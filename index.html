@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="theme-color" content="#F0E3C8">
+<title>Layali Events × Nouhayla Photography</title>
+<meta name="description" content="Layali Events & Nouhayla Photography — Marokkaanse bruiloftservice en huwelijksfotografie in België. Van planning tot de laatste foto verzorgen wij samen jullie onvergetelijke bruiloftsdag.">
+<!-- TIP: zodra de site online staat op jullie eigen domein, vul hieronder de echte URL in (canonical + og:url) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Layali Events × Nouhayla Photography">
+<meta property="og:description" content="Marokkaanse bruiloftservice en huwelijksfotografie — van planning tot de laatste foto.">
+<meta property="og:image" content="images/portfolio-1.jpg">
+<meta property="og:locale" content="nl_BE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%237C5E35'/%3E%3Ctext x='32' y='42' font-size='30' text-anchor='middle' fill='%23F1E6CE' font-family='Georgia,serif'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "Layali Events",
+      "description": "Marokkaanse bruiloftservice: gastvrouwen, weddingplanning, serveerteam, fotobeveiliging, nanny's, hennaya en meer.",
+      "telephone": "+32484237852",
+      "email": "Layali.eventsss@gmail.com",
+      "areaServed": "BE",
+      "sameAs": [
+        "https://www.instagram.com/layalieventss/",
+        "https://www.tiktok.com/@layali.events",
+        "https://www.facebook.com/layali.events.2024/"
+      ]
+    },
+    {
+      "@type": "Photographer",
+      "name": "Nouhayla Photography",
+      "description": "Huwelijksfotografie die het echte moment van jullie bruiloft vastlegt, ongeposeerd en warm.",
+      "telephone": "+32484237852",
+      "email": "nouhaylaa.photography@gmail.com",
+      "areaServed": "BE",
+      "sameAs": [
+        "https://www.instagram.com/nouhayla.photography/",
+        "https://www.tiktok.com/@nouhaylaphotography"
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@400;500;600&family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme: light only;
+    --cream:#F1E6CE;
+    --cream-soft:#E4D2A9;
+    --gold:#AD8A55;
+    --gold-dark:#7C5E35;
+    --gold-line: rgba(124,94,53,0.4);
+    --ink:#131009;
+    --ink-soft:#241F17;
+    --ivory:#F5EFE2;
+    --emerald:#37503F;
+    --emerald-soft:#4C6B57;
+    --radius: 2px;
+    --maxw: 1180px;
+  }
+  *{box-sizing:border-box;}
+  button{-webkit-appearance:none; appearance:none; color:inherit; font:inherit; -webkit-text-fill-color:currentColor;}
+  html{scroll-behavior:smooth; -webkit-text-size-adjust:100%; text-size-adjust:100%; background:linear-gradient(var(--cream),var(--cream));}
+  body{
+    margin:0;
+    background:linear-gradient(var(--cream),var(--cream));
+    color:var(--ink);
+    font-family:'Jost', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    color-scheme: light only;
+  }
+  h1,h2,h3,.serif{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:500;
+    margin:0;
+    color:inherit;
+  }
+  p{margin:0;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 32px;}
+  @media (max-width:640px){ .wrap{padding:0 20px;} }
+
+  /* ---------- NAV ---------- */
+  header.site-nav{
+    position:sticky; top:0; z-index:50;
+    background:linear-gradient(var(--cream),var(--cream));
+    border-bottom:1px solid var(--gold-line);
+    transition:background .25s ease, border-color .25s ease;
+  }
+  header.site-nav.dark-theme{
+    background:linear-gradient(#0f0c08,#0f0c08);
+    border-bottom-color: rgba(245,239,226,0.18);
+  }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto; padding:16px 32px;
+    display:flex; align-items:center; justify-content:space-between; gap:24px;
+  }
+  .logo-mark{
+    display:flex; align-items:baseline; gap:6px; flex-wrap:wrap;
+    font-family:'Cormorant Garamond', serif; font-size:14px; letter-spacing:0.01em;
+    font-weight:600; line-height:1.2; max-width:260px;
+  }
+  .logo-mark .l1{color:var(--gold-dark);}
+  .logo-mark .x{opacity:0.45; font-size:12px; font-weight:400;}
+  .logo-mark .l2{color:var(--ink); font-style:italic; font-weight:500;}
+  .dark-theme .logo-mark .l1{color:var(--gold);}
+  .dark-theme .logo-mark .l2, .dark-theme .logo-mark .x{color:var(--ivory);}
+  @media (max-width:480px){ .logo-mark{font-size:11.5px; max-width:150px;} }
+
+  nav.page-links{display:flex; gap:28px; align-items:center;}
+  nav.page-links button{
+    font-family:'Jost', sans-serif; font-size:14.5px; letter-spacing:0.02em;
+    background:none; border:none; cursor:pointer; color:var(--ink); opacity:0.65;
+    padding:4px 0; position:relative; transition:color .25s ease;
+  }
+  nav.page-links button.active{opacity:1;}
+  nav.page-links button.active::after{
+    content:""; position:absolute; left:0; right:0; bottom:-6px; height:1px; background:linear-gradient(var(--gold-dark),var(--gold-dark));
+  }
+  .dark-theme nav.page-links button{color:var(--ivory);}
+  .dark-theme nav.page-links button.active::after{background:linear-gradient(var(--gold),var(--gold));}
+
+  .nav-right{display:flex; align-items:center; gap:14px;}
+  .lang-switch{display:flex; gap:2px; border:1px solid var(--gold-line); border-radius:20px; padding:3px;}
+  .lang-switch button{
+    background:none; border:none; cursor:pointer; font-family:'Jost',sans-serif;
+    font-size:12px; padding:5px 10px; border-radius:16px; color:var(--ink); opacity:0.6;
+  }
+  .lang-switch button.active{background:linear-gradient(var(--ink),var(--ink)); color:var(--cream); opacity:1;}
+  .dark-theme .lang-switch{border-color:rgba(245,239,226,0.3);}
+  .dark-theme .lang-switch button{color:var(--ivory);}
+  .dark-theme .lang-switch button.active{background:linear-gradient(var(--ivory),var(--ivory)); color:var(--ink);}
+
+  .burger{
+    display:none; align-items:center; justify-content:center;
+    width:42px; height:38px; background:none; cursor:pointer;
+    border:1px solid var(--gold-line); border-radius:6px;
+    color:var(--ink); flex-direction:column; gap:4px; flex-shrink:0;
+  }
+  .burger span{display:block; width:18px; height:2px; background:currentColor;}
+  .dark-theme .burger{color:var(--ivory); border-color:rgba(245,239,226,0.35);}
+
+  @media (max-width:860px){
+    .nav-inner{padding:14px 20px;}
+    nav.page-links{
+      position:absolute; top:100%; left:0; right:0; background:linear-gradient(var(--cream),var(--cream));
+      flex-direction:column; align-items:flex-start; gap:0; border-bottom:1px solid var(--gold-line);
+      max-height:0; overflow:hidden; transition:max-height .25s ease;
+    }
+    .dark-theme nav.page-links{background:linear-gradient(#0f0c08,#0f0c08); border-bottom-color:rgba(245,239,226,0.18);}
+    nav.page-links.open{max-height:280px;}
+    nav.page-links button{width:100%; padding:15px 24px; opacity:0.85;}
+    nav.page-links button.active::after{display:none;}
+    nav.page-links button.active{color:var(--gold-dark); opacity:1;}
+    .dark-theme nav.page-links button.active{color:var(--gold);}
+    .burger{display:flex;}
+  }
+
+  /* ---------- PAGES ---------- */
+  .page{display:none;}
+  .page.active{display:block; animation:pageFadeIn .45s ease both;}
+  @keyframes pageFadeIn{
+    from{opacity:0; transform:translateY(10px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .page.active{animation:none;}
+  }
+
+  /* ---------- HOME HERO ---------- */
+  .combo-title{
+    text-align:center; padding:22px 24px 16px; background:transparent;
+  }
+  .combo-title h1{
+    font-size:clamp(19px,2.8vw,26px); letter-spacing:0.01em; color:var(--ink); font-weight:500;
+  }
+  .combo-title h1 .x{color:var(--gold-dark); font-style:italic; padding:0 6px;}
+  .combo-title p{margin-top:8px; font-size:13.5px; color:var(--ink-soft); opacity:0.8;}
+  .split-hero{display:grid; grid-template-columns:1fr 1fr; min-height:68vh;}
+  @media (max-width:780px){ .split-hero{grid-template-columns:1fr;} }
+  .split-panel{
+    position:relative; display:flex; flex-direction:column; justify-content:center;
+    padding:48px 48px; overflow:hidden;
+    animation:panelIn .7s cubic-bezier(.22,.61,.36,1) both;
+  }
+  .split-panel.gold{animation-delay:.05s;}
+  .split-panel.dark{animation-delay:.18s;}
+  @keyframes panelIn{
+    from{opacity:0; transform:translateY(16px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+  @media (prefers-reduced-motion:reduce){ .split-panel{animation:none;} }
+  @media (max-width:640px){ .split-panel{padding:40px 26px;} }
+  .split-panel.gold{background:linear-gradient(160deg, var(--gold) 0%, var(--gold-dark) 100%); color:var(--cream);}
+  .split-panel.dark{background:linear-gradient(var(--ink),var(--ink)); color:var(--ivory);}
+  .split-panel .sig-accent{
+    font-family:'Herr Von Muellerhoff', cursive; font-size:24px; opacity:0.9; margin-bottom:2px; line-height:1;
+  }
+  .split-panel .eyebrow-mark{
+    font-family:'Cormorant Garamond', serif; font-style:italic; font-size:13.5px; opacity:0.85; margin-bottom:12px;
+  }
+  .split-panel h2.brand{
+    font-size:clamp(22px,3.2vw,32px); letter-spacing:0.02em; line-height:1.1; margin-bottom:5px;
+  }
+  .split-panel .brand-sub{font-size:12px; letter-spacing:0.14em; text-transform:uppercase; opacity:0.75; margin-bottom:18px;}
+  .split-panel p.desc{max-width:340px; font-size:14.5px; opacity:0.9; margin-bottom:22px;}
+  .btn{
+    display:inline-block; padding:11px 22px; font-family:'Jost',sans-serif; font-size:13px;
+    letter-spacing:0.03em; border:1px solid currentColor; cursor:pointer; background:none;
+    width:fit-content; transition:background .2s ease, color .2s ease, transform .2s ease;
+    -webkit-appearance:none; appearance:none; color:inherit; -webkit-text-fill-color:currentColor;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .split-panel.gold .btn:hover{background:linear-gradient(var(--cream),var(--cream)); color:var(--gold-dark);}
+  .split-panel.dark .btn:hover{background:linear-gradient(var(--ivory),var(--ivory)); color:var(--ink);}
+
+  .btn-row{display:flex; flex-wrap:wrap; gap:14px; align-items:center;}
+  .btn-whatsapp{
+    display:inline-flex; align-items:center; gap:9px;
+    padding:12px 24px; font-family:'Jost',sans-serif; font-size:13.5px; letter-spacing:0.02em;
+    border:1px solid transparent; cursor:pointer; width:fit-content; text-decoration:none;
+    -webkit-appearance:none; appearance:none; transition:opacity .2s ease;
+  }
+  .btn-whatsapp svg{width:16px; height:16px; flex-shrink:0;}
+  .btn-whatsapp:hover{opacity:0.85;}
+  .btn-whatsapp.on-gold{background:linear-gradient(var(--ink),var(--ink)); color:var(--cream);}
+  .btn-whatsapp.on-dark{background:linear-gradient(var(--gold),var(--gold)); color:var(--ink);}
+  .btn-whatsapp.on-light{background:linear-gradient(var(--ink),var(--ink)); color:var(--cream);}
+  .hero-divider{
+    position:absolute; top:0; bottom:0; left:0; width:1px; background:linear-gradient(rgba(255,255,255,0.25),rgba(255,255,255,0.25));
+  }
+  .split-panel.dark .hero-divider{left:0;}
+  .center-star{
+    position:absolute; top:50%; left:0; transform:translate(-50%,-50%);
+    width:34px; height:34px; z-index:5; color:var(--cream);
+    display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(var(--ink),var(--ink)); border-radius:50%; font-size:16px;
+  }
+  @media (max-width:780px){ .center-star{display:none;} }
+
+  .together{padding:60px 0; background:linear-gradient(var(--cream),var(--cream));}
+  .together-grid{display:grid; grid-template-columns:0.9fr 1.1fr; gap:48px; align-items:start;}
+  @media (max-width:780px){ .together-grid{grid-template-columns:1fr; gap:24px;} }
+  .together h2{font-size:clamp(21px,3vw,28px); line-height:1.15; max-width:340px;}
+  .together-body p{font-size:15px; max-width:500px; color:var(--ink-soft); margin-bottom:20px;}
+  .pill-row{display:flex; flex-wrap:wrap; gap:10px;}
+  .pill{
+    border:1px solid var(--gold-line); padding:7px 15px; font-size:12.5px; font-family:'Jost',sans-serif;
+    color:var(--gold-dark); border-radius:20px; background:linear-gradient(var(--cream-soft),var(--cream-soft));
+  }
+
+  /* ---------- SECTION HERO (events/photo) ---------- */
+  .band-hero{padding:64px 0 44px;}
+  .band-hero.gold{background:linear-gradient(var(--gold),var(--gold)); color:var(--cream);}
+  .band-hero.dark{background:linear-gradient(var(--ink),var(--ink)); color:var(--ivory);}
+  .band-hero h1{font-size:clamp(26px,3.6vw,38px); margin-bottom:12px;}
+  .band-hero .sig-accent{font-family:'Herr Von Muellerhoff', cursive; font-size:26px; opacity:0.9; margin-bottom:4px; line-height:1;}
+  .band-hero p{max-width:520px; font-size:15.5px; opacity:0.92;}
+
+  .section{padding:60px 0;}
+  .section-alt{background:linear-gradient(var(--cream-soft),var(--cream-soft));}
+  .two-col{display:grid; grid-template-columns:0.8fr 1.2fr; gap:44px; align-items:start;}
+  @media (max-width:780px){ .two-col{grid-template-columns:1fr;} }
+  .two-col h2{font-size:clamp(20px,2.6vw,26px); margin-bottom:5px;}
+  .two-col .kicker-line{width:34px; height:2px; background:linear-gradient(var(--gold-dark),var(--gold-dark)); margin-bottom:14px;}
+  .two-col p{font-size:15px; color:var(--ink-soft); max-width:520px;}
+
+  .card-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; margin-top:36px;}
+  @media (max-width:900px){ .card-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:600px){ .card-grid{grid-template-columns:1fr;} }
+  .service-card{
+    border:1px solid var(--gold-line); padding:24px 22px; background:linear-gradient(var(--cream),var(--cream));
+    display:flex; flex-direction:column; gap:9px;
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .service-card:hover{transform:translateY(-4px); box-shadow:0 14px 28px rgba(124,94,53,0.14);}
+  .section-alt .service-card{background:linear-gradient(var(--cream),var(--cream));}
+  .service-card h3{font-size:17.5px; font-weight:600;}
+  .service-card p{font-size:14px; color:var(--ink-soft);}
+
+  .steps-row{display:flex; gap:0; margin-top:40px; position:relative;}
+  @media (max-width:780px){ .steps-row{flex-direction:column; gap:28px;} }
+  .step{flex:1; position:relative; padding:0 20px;}
+  .step:first-child{padding-left:0;}
+  .step-num{
+    font-family:'Cormorant Garamond', serif; font-size:32px; color:var(--gold-dark); font-style:italic; margin-bottom:8px; display:block;
+  }
+  .step h3{font-size:17px; margin-bottom:6px;}
+  .step p{font-size:13.5px; color:var(--ink-soft);}
+  .steps-row::before{
+    content:""; position:absolute; top:20px; left:0; right:0; height:1px; background:linear-gradient(var(--gold-line),var(--gold-line)); z-index:0;
+  }
+  @media (max-width:780px){ .steps-row::before{display:none;} }
+
+  /* Photography portfolio */
+  .portfolio-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:4px; margin-top:36px;}
+  @media (max-width:780px){ .portfolio-grid{grid-template-columns:repeat(2,1fr);} }
+  .plate{
+    aspect-ratio:4/5; position:relative; overflow:hidden; background:#0f0d0a;
+    display:block; width:100%; padding:0; margin:0; border:none; cursor:zoom-in;
+  }
+  .plate picture, .plate img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block;}
+  .plate img{transition:transform .5s ease;}
+  .plate:hover img, .plate:focus-visible img{transform:scale(1.06);}
+
+  /* ---------- Lightbox ---------- */
+  .lightbox{
+    position:fixed; inset:0; z-index:200; display:flex; align-items:center; justify-content:center;
+    background:rgba(10,8,5,0.92); padding:32px;
+    opacity:0; visibility:hidden; transition:opacity .3s ease, visibility 0s linear .3s;
+  }
+  .lightbox.open{opacity:1; visibility:visible; transition:opacity .3s ease;}
+  .lightbox img{
+    max-width:min(90vw,900px); max-height:82vh; width:auto; height:auto; display:block;
+    box-shadow:0 20px 60px rgba(0,0,0,0.5);
+    transform:scale(.94); transition:transform .3s ease;
+  }
+  .lightbox.open img{transform:scale(1);}
+  .lightbox-close{
+    position:absolute; top:20px; right:24px; width:42px; height:42px; border-radius:50%;
+    border:1px solid rgba(245,239,226,0.4); background:rgba(0,0,0,0.2); color:var(--ivory);
+    font-size:20px; cursor:pointer; display:flex; align-items:center; justify-content:center;
+    transition:background .2s ease;
+  }
+  .lightbox-close:hover{background:rgba(245,239,226,0.15);}
+
+  /* ---------- Scroll reveal ---------- */
+  .reveal{opacity:0; transform:translateY(22px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal.in-view{opacity:1; transform:translateY(0);}
+  .reveal:nth-child(1){transition-delay:0s;}
+  .reveal:nth-child(2){transition-delay:.06s;}
+  .reveal:nth-child(3){transition-delay:.12s;}
+  .reveal:nth-child(4){transition-delay:.18s;}
+  .reveal:nth-child(5){transition-delay:.24s;}
+  .reveal:nth-child(6){transition-delay:.3s;}
+  .reveal:nth-child(7){transition-delay:.36s;}
+  .reveal:nth-child(8){transition-delay:.42s;}
+  @media (prefers-reduced-motion:reduce){
+    .reveal{opacity:1 !important; transform:none !important; transition:none !important;}
+    .plate img{transition:none;}
+    .lightbox, .lightbox img{transition:none !important;}
+    html{scroll-behavior:auto;}
+  }
+
+
+  .package-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:36px;}
+  @media (max-width:780px){ .package-grid{grid-template-columns:1fr;} }
+  .package-card{
+    border:1px solid rgba(244,238,226,0.2); padding:26px 22px; background:linear-gradient(var(--ink-soft),var(--ink-soft));
+    transition:transform .25s ease, border-color .25s ease;
+  }
+  .package-card:hover{transform:translateY(-4px); border-color:rgba(173,138,85,0.6);}
+  .package-card h3{color:var(--ivory); font-size:19px; margin-bottom:8px;}
+  .package-card p{color:rgba(244,238,226,0.75); font-size:14px;}
+
+  .cta-band{padding:56px 0; text-align:center;}
+  .cta-band.gold{background:linear-gradient(var(--gold-dark),var(--gold-dark)); color:var(--cream);}
+  .cta-band.dark{background:linear-gradient(#0d0b08,#0d0b08); color:var(--ivory);}
+  .cta-band h2{font-size:clamp(21px,3vw,28px); margin-bottom:18px;}
+  .cta-band .btn{margin:0 auto;}
+  .btn-row{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:4px;}
+  .btn-solid{background:linear-gradient(var(--cream),var(--cream)); color:var(--gold-dark); border-color:var(--cream);}
+  .cta-band.dark .btn-solid{background:linear-gradient(var(--ivory),var(--ivory)); color:#0d0b08; border-color:var(--ivory);}
+
+  .review-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:36px;}
+  @media (max-width:900px){ .review-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:640px){ .review-grid{grid-template-columns:1fr;} }
+  .review-card{padding:26px 24px; display:flex; flex-direction:column; gap:14px; transition:transform .25s ease;}
+  .review-card:hover{transform:translateY(-4px);}
+  .review-card.on-light{border:1px solid var(--gold-line); background:linear-gradient(var(--cream),var(--cream));}
+  .review-card.on-dark{border:1px solid rgba(244,238,226,0.18); background:linear-gradient(var(--ink-soft),var(--ink-soft));}
+  .review-card .quote-mark{font-family:'Cormorant Garamond', serif; font-style:italic; font-size:32px; color:var(--gold-dark); line-height:1;}
+  .review-card.on-dark .quote-mark{color:var(--gold);}
+  .review-card p.quote{font-size:14px; line-height:1.65; color:var(--ink-soft);}
+  .review-card.on-dark p.quote{color:rgba(244,238,226,0.85);}
+  .review-card .reviewer{font-family:'Cormorant Garamond', serif; font-style:italic; font-size:15px; color:var(--gold-dark);}
+  .review-card.on-dark .reviewer{color:var(--gold);}
+
+  /* Contact */
+  .contact-head{padding:56px 0 32px; text-align:left;}
+  .contact-head h1{font-size:clamp(26px,3.6vw,36px); margin-bottom:10px;}
+  .contact-head p{font-size:15px; color:var(--ink-soft); max-width:520px;}
+  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:24px; padding-bottom:96px;}
+  @media (max-width:780px){ .contact-grid{grid-template-columns:1fr;} }
+  .contact-card{padding:44px 38px;}
+  .contact-card.gold{background:linear-gradient(var(--gold),var(--gold)); color:var(--cream);}
+  .contact-card.dark{background:linear-gradient(var(--ink),var(--ink)); color:var(--ivory);}
+  .contact-card h3{font-size:25px; margin-bottom:6px; letter-spacing:0.02em;}
+  .contact-card .role{font-size:13.5px; opacity:0.8; margin-bottom:28px;}
+  .contact-list{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px;}
+  .contact-list li{font-size:15px;}
+  .contact-list a{border-bottom:1px solid currentColor; padding-bottom:2px; opacity:0.95;}
+  .contact-list .label{display:block; font-size:11.5px; letter-spacing:0.08em; opacity:0.65; margin-bottom:3px;}
+
+  footer{padding:36px 0; border-top:1px solid var(--gold-line); background:linear-gradient(var(--cream),var(--cream));}
+  .footer-inner{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; font-size:13px; color:var(--ink-soft);}
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="logo-mark">
+      <span class="l1">Layali Events</span><span class="x">×</span><span class="l2">Nouhayla Photography</span>
+    </div>
+    <nav class="page-links" id="pageLinks">
+      <button data-page="home" class="active" data-i18n="nav_home">Home</button>
+      <button data-page="events" data-i18n="nav_events">Layali Events</button>
+      <button data-page="photo" data-i18n="nav_photo">Fotografie</button>
+      <button data-page="about" data-i18n="nav_about">Over ons</button>
+      <button data-page="contact" data-i18n="nav_contact">Contact</button>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <button data-lang="nl" class="active">NL</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="en">EN</button>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- HOME -->
+<main>
+<section class="page active" id="page-home">
+  <div class="combo-title">
+    <h1>Layali Events <span class="x">×</span> Nouhayla Photography</h1>
+    <p data-i18n="combo_sub">Twee vakmensen, één onvergetelijke bruiloft.</p>
+  </div>
+  <div class="split-hero">
+    <div class="split-panel gold">
+      <p class="eyebrow-mark" data-i18n="home_kicker_events">voor de bruiloft</p>
+      <h2 class="brand">LAYALI EVENTS</h2>
+      <p class="brand-sub" data-i18n="brand_tag_layali">Marokkaanse bruiloftservice</p>
+      <p class="desc" data-i18n="home_desc_events">Wij organiseren jullie dag van begin tot eind, met oog voor elk detail en respect voor traditie.</p>
+      <button class="btn" data-goto="events" data-i18n="home_cta_events">Ontdek Layali Events</button>
+    </div>
+    <div class="split-panel dark">
+      <div class="hero-divider"></div>
+      <p class="sig-accent">Nouhayla</p>
+      <p class="eyebrow-mark" data-i18n="home_kicker_photo">om vast te leggen</p>
+      <h2 class="brand">NOUHAYLA PHOTOGRAPHY</h2>
+      <p class="brand-sub" data-i18n="brand_tag_photo">Huwelijksfotografie</p>
+      <p class="desc" data-i18n="home_desc_photo">Ongeposeerde, warme huwelijksfotografie die het echte moment van jullie dag vasthoudt.</p>
+      <button class="btn" data-goto="photo" data-i18n="home_cta_photo">Bekijk de fotografie</button>
+    </div>
+    <div class="center-star">✦</div>
+  </div>
+
+  <div class="together">
+    <div class="wrap together-grid">
+      <h2 class="reveal" data-i18n="home_together_h2">Waarom samen sterker</h2>
+      <div class="together-body reveal">
+        <p data-i18n="home_together_body">Een trouwdag heeft geen twee planningen nodig, maar wel twee vakmensen die elkaar aanvoelen. Layali Events kent elk decor van binnen en buiten; Nouhayla weet precies wanneer ze klaar moet staan met haar camera. Boek los, of boek het duo.</p>
+        <div class="pill-row">
+          <span class="pill" data-i18n="pill_1">Marokkaanse tradities</span>
+          <span class="pill" data-i18n="pill_2">Fotografie op maat</span>
+          <span class="pill" data-i18n="pill_3">Van planning tot laatste foto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="page" id="page-events">
+  <div class="band-hero gold">
+    <div class="wrap">
+      <h1 data-i18n="events_h1">Layali Events</h1>
+      <p data-i18n="events_sub">Marokkaanse bruiloftservice — wij dragen zorg voor elk detail van jullie dag, met respect voor traditie en oog voor de kleinste details.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap two-col">
+      <div class="reveal">
+        <div class="kicker-line"></div>
+        <h2 data-i18n="events_about_h2">Over ons</h2>
+      </div>
+      <p class="reveal" data-i18n="events_about_body">Layali Events organiseert Marokkaanse bruiloften van begin tot eind. Van de eerste kennismaking tot het laatste dansje: wij zorgen dat jullie zelf kunnen genieten van jullie dag, terwijl wij de puzzel op de achtergrond leggen.</p>
+    </div>
+  </div>
+
+  <div class="section section-alt">
+    <div class="wrap">
+      <h2 data-i18n="services_h2">Wat wij doen</h2>
+      <div class="card-grid">
+        <div class="service-card reveal"><h3 data-i18n="s1_t">Gastvrouw & weddingplanner</h3><p data-i18n="s1_d">Coördinatie en gastvrijheid voor jullie hele dag, van ontvangst tot afscheid.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s2_t">Serveerteam</h3><p data-i18n="s2_d">Professioneel bedienend personeel tijdens het feest.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s3_t">Fotobeveiliging</h3><p data-i18n="s3_d">Wij houden een oog op jullie spullen en foto's, zodat alles veilig blijft.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s4_t">Content creator</h3><p data-i18n="s4_d">Sfeerbeelden en content van jullie dag, klaar om te delen.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s5_t">Nanny's</h3><p data-i18n="s5_d">Ervaren kinderoppas, inclusief EHBO-diploma.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s6_t">Toiletdame</h3><p data-i18n="s6_d">Verzorging en netheid van de toiletruimte, de hele avond door.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s7_t">Afwas & keukenhulp</h3><p data-i18n="s7_d">Ondersteuning in de keuken en bij de afwas.</p></div>
+        <div class="service-card reveal"><h3 data-i18n="s8_t">Hennaya</h3><p data-i18n="s8_d">Organisatie en styling van een onvergetelijke henna-avond.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <h2 data-i18n="process_h2">Hoe het werkt</h2>
+      <div class="steps-row">
+        <div class="step reveal"><span class="step-num">01</span><h3 data-i18n="p1_t">Kennismaking</h3><p data-i18n="p1_d">We bespreken jullie wensen, stijl en budget.</p></div>
+        <div class="step reveal"><span class="step-num">02</span><h3 data-i18n="p2_t">Planning</h3><p data-i18n="p2_d">Jullie ontvangen een concreet voorstel voor decor en leveranciers.</p></div>
+        <div class="step reveal"><span class="step-num">03</span><h3 data-i18n="p3_t">Uitvoering</h3><p data-i18n="p3_d">Wij coördineren alles tot en met de laatste gast die vertrekt.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <h2 data-i18n="reviews_h2">Wat klanten zeggen</h2>
+      <div class="review-grid">
+        <div class="review-card on-light reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Salaam alaikom dames! Ik heb gisteren de eer gehad om met jullie te werken, en allahoma barek — zeker voor herhaling vatbaar. Als kokkin is het een uitdaging om met onbekend personeel te werken, maar dat heeft geen seconde zo gevoeld. Wij waren een team en het was heel aangenaam werken. Jullie tempo, netheid en orde waren fantastisch!</p>
+          <span class="reviewer">— Hanan</span>
+        </div>
+        <div class="review-card on-light reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Salaam alaikoum lieverd, namens ons allemaal: dankjewel, jullie waren top gisteren op de trouw van mijn vriendin. Alles verliep vlot en jullie waren weer meer dan enkel serveersters. Dankjewel voor alles.</p>
+          <span class="reviewer" data-i18n="rev_guest">— Gast op een bruiloft</span>
+        </div>
+        <div class="review-card on-light reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Wij waren gisteren aanwezig op het feest van Ismail & Bouchra. Ik en mijn tafel waren heel tevreden van jullie service. Super lieve dames, en jullie doen het werk heel goed.</p>
+          <span class="reviewer" data-i18n="rev_guest2">— Gast op een bruiloft</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band gold">
+    <h2 data-i18n="events_cta_h2">Klaar om te plannen?</h2>
+    <div class="btn-row">
+      <a class="btn btn-solid" href="https://wa.me/32484237852?text=Hallo%20Layali%20Events%2C%20ik%20wil%20graag%20een%20boeking%20aanvragen." target="_blank" rel="noopener" data-i18n="whatsapp_btn">Boek via WhatsApp</a>
+      <button class="btn" data-goto="contact" data-i18n="events_cta_btn">Neem contact op</button>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTOGRAPHY -->
+<section class="page" id="page-photo">
+  <div class="band-hero dark">
+    <div class="wrap">
+      <p class="sig-accent">Nouhayla</p>
+      <h1>NOUHAYLA PHOTOGRAPHY</h1>
+      <p data-i18n="photo_sub">Huwelijksfotografie die het echte moment vastlegt — geen poses, wel emotie.</p>
+    </div>
+  </div>
+
+  <div class="section" style="background:linear-gradient(var(--ink),var(--ink));">
+    <div class="wrap two-col">
+      <div class="reveal">
+        <div class="kicker-line" style="background:linear-gradient(var(--ivory),var(--ivory));"></div>
+        <h2 style="color:var(--ivory);" data-i18n="photo_about_h2">Over Nouhayla</h2>
+      </div>
+      <p class="reveal" style="color:rgba(244,238,226,0.8);" data-i18n="photo_about_body">Nouhayla fotografeert bruiloften zoals ze zich voltrekken: ongeposeerd, warm en met oog voor de details die jullie later het meest zullen koesteren.</p>
+    </div>
+  </div>
+
+  <div class="section" style="background:linear-gradient(#100d0a,#100d0a);">
+    <div class="wrap">
+      <h2 style="color:var(--ivory);" data-i18n="portfolio_h2">Mijn werk</h2>
+      <div class="portfolio-grid">
+        <button type="button" class="plate reveal" data-full="images/portfolio-1.jpg" aria-label="Vergroot foto 1"><picture><source srcset="images/portfolio-1-thumb.webp" type="image/webp"><img src="images/portfolio-1-thumb.jpg" width="600" height="900" loading="lazy" decoding="async" alt="Bruid met sluier en kroon, ogen gesloten in een rustig moment"></picture></button>
+        <button type="button" class="plate reveal" data-full="images/portfolio-2.jpg" aria-label="Vergroot foto 2"><picture><source srcset="images/portfolio-2-thumb.webp" type="image/webp"><img src="images/portfolio-2-thumb.jpg" width="680" height="900" loading="lazy" decoding="async" alt="Close-up van henna-versierde handen tijdens de voorbereiding"></picture></button>
+        <button type="button" class="plate reveal" data-full="images/portfolio-3.jpg" aria-label="Vergroot foto 3"><picture><source srcset="images/portfolio-3-thumb.webp" type="image/webp"><img src="images/portfolio-3-thumb.jpg" width="491" height="900" loading="lazy" decoding="async" alt="Marokkaanse bruidshoofdtooi met traditioneel borduursel"></picture></button>
+        <button type="button" class="plate reveal" data-full="images/portfolio-4.jpg" aria-label="Vergroot foto 4"><picture><source srcset="images/portfolio-4-thumb.webp" type="image/webp"><img src="images/portfolio-4-thumb.jpg" width="500" height="900" loading="lazy" decoding="async" alt="Henna-versierde handen op een geborduurde groene kaftan"></picture></button>
+        <button type="button" class="plate reveal" data-full="images/portfolio-5.jpg" aria-label="Vergroot foto 5"><picture><source srcset="images/portfolio-5-thumb.webp" type="image/webp"><img src="images/portfolio-5-thumb.jpg" width="506" height="900" loading="lazy" decoding="async" alt="Bruidegom van achter met een wit boeket over zijn schouder"></picture></button>
+        <button type="button" class="plate reveal" data-full="images/portfolio-6.jpg" aria-label="Vergroot foto 6"><picture><source srcset="images/portfolio-6-thumb.webp" type="image/webp"><img src="images/portfolio-6-thumb.jpg" width="505" height="900" loading="lazy" decoding="async" alt="Bruid met sluier, glimlachend in een gouden kaftan"></picture></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background:linear-gradient(var(--ink),var(--ink));">
+    <div class="wrap">
+      <h2 style="color:var(--ivory);" data-i18n="packages_h2">Pakketten</h2>
+      <div class="package-grid">
+        <div class="package-card reveal"><h3 data-i18n="pk1_t">Verloving</h3><p data-i18n="pk1_d">Een fotoshoot om jullie verhaal in te leiden.</p></div>
+        <div class="package-card reveal"><h3 data-i18n="pk2_t">Bruiloftsdag</h3><p data-i18n="pk2_d">Volledige dekking van voorbereiding tot eerste dans.</p></div>
+        <div class="package-card reveal"><h3 data-i18n="pk3_t">Bruiloft + Henna</h3><p data-i18n="pk3_d">Beide avonden vastgelegd, met een gezamenlijk album.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background:linear-gradient(#100d0a,#100d0a);">
+    <div class="wrap">
+      <h2 style="color:var(--ivory);" data-i18n="reviews_h2">Wat klanten zeggen</h2>
+      <div class="review-grid">
+        <div class="review-card on-dark reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Wauw, wauw en wauw. Ik heb de foto's gedeeld met mijn zusjes en mama, en het enige wat ze konden typen was "wauw", allahoumabarik. Ik herbeleef mijn hennadag telkens ik naar deze prachtige foto's kijk — zo mooi en zo zuiver getrokken. Dankjewel lieve Nouha, echt super knap.</p>
+          <span class="reviewer">— Bride Dounia</span>
+        </div>
+        <div class="review-card on-dark reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Ik wil jullie enorm bedanken voor alles. Ik begon met zoveel stress, maar jullie hebben dat echt weggenomen door mij zo te ondersteunen. Ik heb al een klein voorproefje van de foto's gezien en ik kan oprecht niet wachten — jullie hebben mijn dag zo soepel laten verlopen.</p>
+          <span class="reviewer">— Bride Anissa</span>
+        </div>
+        <div class="review-card on-dark reveal">
+          <span class="quote-mark">"</span>
+          <p class="quote">Hartelijk dank voor de foto's, ze zijn zeer mooi getrokken. Al het wachten was het zeker waard: de belichting is perfect en de kwaliteit is uitstekend. Heel leuk gehad als mijn fotograaf, en heb er geen moment spijt van gehad.</p>
+          <span class="reviewer">— Bride Romaisa</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band dark">
+    <h2 data-i18n="photo_cta_h2">Laten we jullie dag vastleggen</h2>
+    <div class="btn-row">
+      <a class="btn btn-solid" href="https://wa.me/32484237852?text=Hallo%20Nouhayla%2C%20ik%20wil%20graag%20een%20fotoshoot%20boeken." target="_blank" rel="noopener" data-i18n="whatsapp_btn">Boek via WhatsApp</a>
+      <button class="btn" data-goto="contact" data-i18n="photo_cta_btn">Neem contact op</button>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" id="page-about">
+  <div class="band-hero gold">
+    <div class="wrap">
+      <h1 data-i18n="about_h1">Over ons</h1>
+      <p data-i18n="about_sub">Twee passies, één missie: van jullie dag iets onvergetelijks maken.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap two-col">
+      <div class="reveal">
+        <div class="kicker-line"></div>
+        <h2 data-i18n="about_layali_h2">Layali Events</h2>
+      </div>
+      <div class="reveal">
+        <p data-i18n="about_layali_p1">Layali Events is ontstaan vanuit mijn passie voor eventcoördinatie en het creëren van onvergetelijke momenten. Als eigenares vind ik het belangrijk dat elk detail klopt en dat onze klanten met een gerust hart kunnen genieten van hun bijzondere dag. Samen met mijn team zet ik me elke keer opnieuw in om alles tot in de puntjes te laten verlopen en vooral: mensen gelukkig te zien.</p>
+        <p data-i18n="about_layali_p2" style="margin-top:16px;">Van de eerste voorbereiding tot het laatste moment: wij zorgen ervoor dat jouw event zorgeloos en onvergetelijk wordt.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="background:linear-gradient(var(--ink),var(--ink));">
+    <div class="wrap two-col">
+      <div class="reveal">
+        <div class="kicker-line" style="background:linear-gradient(var(--ivory),var(--ivory));"></div>
+        <h2 style="color:var(--ivory);" data-i18n="about_nouhayla_h2">Nouhayla Photography</h2>
+      </div>
+      <div class="reveal">
+        <p style="color:rgba(244,238,226,0.85);" data-i18n="about_nouhayla_p1">Nouhayla Photography is ontstaan vanuit mijn liefde voor fotografie en het vastleggen van bijzondere momenten. Voor mij is fotografie meer dan alleen een foto maken: het gaat om het bewaren van emoties, details en herinneringen die je keer op keer opnieuw wilt beleven.</p>
+        <p style="color:rgba(244,238,226,0.85); margin-top:16px;" data-i18n="about_nouhayla_p2">Met een persoonlijke aanpak en oog voor detail leggen we jullie mooiste momenten vast — puur, tijdloos en met gevoel.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band gold">
+    <h2 data-i18n="about_tagline">Jouw moment. Jouw verhaal. Voor altijd vastgelegd.</h2>
+    <div class="btn-row">
+      <button class="btn" data-goto="contact" data-i18n="events_cta_btn">Neem contact op</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="page-contact">
+  <div class="wrap contact-head">
+    <h1 data-i18n="contact_h1">Contact</h1>
+    <p data-i18n="contact_sub">Klaar om te plannen? Neem contact op met Layali Events, met Nouhayla, of met beiden.</p>
+  </div>
+  <div class="wrap contact-grid">
+    <div class="contact-card gold reveal">
+      <h3>Layali Events</h3>
+      <p class="role" data-i18n="contact_layali_note">Voor gastvrouwen, planning en coördinatie</p>
+      <ul class="contact-list">
+        <li><span class="label" data-i18n="label_email">EMAIL</span><a href="mailto:Layali.eventsss@gmail.com">Layali.eventsss@gmail.com</a></li>
+        <li><span class="label" data-i18n="label_phone">TELEFOON</span><a href="tel:+32484237852">+32 484 23 78 52</a></li>
+        <li><span class="label" data-i18n="label_instagram">INSTAGRAM</span><a href="https://www.instagram.com/layalieventss/" target="_blank" rel="noopener">@layalieventss</a></li>
+        <li><span class="label" data-i18n="label_tiktok">TIKTOK</span><a href="https://www.tiktok.com/@layali.events" target="_blank" rel="noopener">@layali.events</a></li>
+        <li><span class="label" data-i18n="label_facebook">FACEBOOK</span><a href="https://www.facebook.com/layali.events.2024/" target="_blank" rel="noopener">Layali Events</a></li>
+      </ul>
+      <a class="btn btn-solid" style="margin-top:24px;" href="https://wa.me/32484237852?text=Hallo%20Layali%20Events%2C%20ik%20wil%20graag%20een%20boeking%20aanvragen." target="_blank" rel="noopener" data-i18n="whatsapp_btn">Boek via WhatsApp</a>
+    </div>
+    <div class="contact-card dark reveal">
+      <h3>Nouhayla Photography</h3>
+      <p class="role" data-i18n="contact_photo_note">Voor fotografie en albums</p>
+      <ul class="contact-list">
+        <li><span class="label" data-i18n="label_email">EMAIL</span><a href="mailto:nouhaylaa.photography@gmail.com">nouhaylaa.photography@gmail.com</a></li>
+        <li><span class="label" data-i18n="label_phone">TELEFOON</span><a href="tel:+32484237852">+32 484 23 78 52</a></li>
+        <li><span class="label" data-i18n="label_instagram">INSTAGRAM</span><a href="https://www.instagram.com/nouhayla.photography/" target="_blank" rel="noopener">@nouhayla.photography</a></li>
+        <li><span class="label" data-i18n="label_tiktok">TIKTOK</span><a href="https://www.tiktok.com/@nouhaylaphotography" target="_blank" rel="noopener">@nouhaylaphotography</a></li>
+      </ul>
+      <a class="btn btn-solid" style="margin-top:24px;" href="https://wa.me/32484237852?text=Hallo%20Nouhayla%2C%20ik%20wil%20graag%20een%20fotoshoot%20boeken." target="_blank" rel="noopener" data-i18n="whatsapp_btn">Boek via WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Layali Events × Nouhayla Photography</span>
+    <span data-i18n="footer_note">Marokkaanse bruiloften, samen vastgelegd.</span>
+    <span>BTW BE1027313043</span>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto uitvergroot">
+  <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Sluiten">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+/* ---------- i18n ---------- */
+const translations = {
+  nl: {
+    nav_home:"Home", nav_events:"Layali Events", nav_photo:"Fotografie", nav_about:"Over ons", nav_contact:"Contact",
+    combo_sub:"Twee vakmensen, één onvergetelijke bruiloft.",
+    brand_tag_layali:"Marokkaanse bruiloftservice", brand_tag_photo:"Huwelijksfotografie",
+    home_kicker_events:"voor de bruiloft", home_kicker_photo:"om vast te leggen",
+    home_desc_events:"Wij organiseren jullie dag van begin tot eind, met oog voor elk detail en respect voor traditie.",
+    home_desc_photo:"Ongeposeerde, warme huwelijksfotografie die het echte moment van jullie dag vasthoudt.",
+    home_cta_events:"Ontdek Layali Events", home_cta_photo:"Bekijk de fotografie",
+    home_together_h2:"Waarom samen sterker",
+    home_together_body:"Een trouwdag heeft geen twee planningen nodig, maar wel twee vakmensen die elkaar aanvoelen. Layali Events kent elk decor van binnen en buiten; Nouhayla weet precies wanneer ze klaar moet staan met haar camera. Boek los, of boek het duo.",
+    pill_1:"Marokkaanse tradities", pill_2:"Fotografie op maat", pill_3:"Van planning tot laatste foto",
+    events_h1:"Layali Events", events_sub:"Marokkaanse bruiloftservice — wij dragen zorg voor elk detail van jullie dag, met respect voor traditie en oog voor de kleinste details.",
+    events_about_h2:"Over ons", events_about_body:"Layali Events organiseert Marokkaanse bruiloften van begin tot eind. Van de eerste kennismaking tot het laatste dansje: wij zorgen dat jullie zelf kunnen genieten van jullie dag, terwijl wij de puzzel op de achtergrond leggen.",
+    services_h2:"Wat wij doen",
+    s1_t:"Gastvrouw & weddingplanner", s1_d:"Coördinatie en gastvrijheid voor jullie hele dag, van ontvangst tot afscheid.",
+    s2_t:"Serveerteam", s2_d:"Professioneel bedienend personeel tijdens het feest.",
+    s3_t:"Fotobeveiliging", s3_d:"Wij houden een oog op jullie spullen en foto's, zodat alles veilig blijft.",
+    s4_t:"Content creator", s4_d:"Sfeerbeelden en content van jullie dag, klaar om te delen.",
+    s5_t:"Nanny's", s5_d:"Ervaren kinderoppas, inclusief EHBO-diploma.",
+    s6_t:"Toiletdame", s6_d:"Verzorging en netheid van de toiletruimte, de hele avond door.",
+    s7_t:"Afwas & keukenhulp", s7_d:"Ondersteuning in de keuken en bij de afwas.",
+    s8_t:"Hennaya", s8_d:"Organisatie en styling van een onvergetelijke henna-avond.",
+    process_h2:"Hoe het werkt",
+    p1_t:"Kennismaking", p1_d:"We bespreken jullie wensen, stijl en budget.",
+    p2_t:"Planning", p2_d:"Jullie ontvangen een concreet voorstel voor decor en leveranciers.",
+    p3_t:"Uitvoering", p3_d:"Wij coördineren alles tot en met de laatste gast die vertrekt.",
+    events_cta_h2:"Klaar om te plannen?", events_cta_btn:"Neem contact op",
+    photo_sub:"Huwelijksfotografie die het echte moment vastlegt — geen poses, wel emotie.",
+    photo_about_h2:"Over Nouhayla", photo_about_body:"Nouhayla fotografeert bruiloften zoals ze zich voltrekken: ongeposeerd, warm en met oog voor de details die jullie later het meest zullen koesteren.",
+    portfolio_h2:"Mijn werk",
+    reviews_h2:"Wat klanten zeggen", rev_guest:"— Gast op een bruiloft", rev_guest2:"— Gast op een bruiloft",
+    packages_h2:"Pakketten",
+    pk1_t:"Verloving", pk1_d:"Een fotoshoot om jullie verhaal in te leiden.",
+    pk2_t:"Bruiloftsdag", pk2_d:"Volledige dekking van voorbereiding tot eerste dans.",
+    pk3_t:"Bruiloft + Henna", pk3_d:"Beide avonden vastgelegd, met een gezamenlijk album.",
+    photo_cta_h2:"Laten we jullie dag vastleggen", photo_cta_btn:"Neem contact op",
+    about_h1:"Over ons", about_sub:"Twee passies, één missie: van jullie dag iets onvergetelijks maken.",
+    about_layali_h2:"Layali Events",
+    about_layali_p1:"Layali Events is ontstaan vanuit mijn passie voor eventcoördinatie en het creëren van onvergetelijke momenten. Als eigenares vind ik het belangrijk dat elk detail klopt en dat onze klanten met een gerust hart kunnen genieten van hun bijzondere dag. Samen met mijn team zet ik me elke keer opnieuw in om alles tot in de puntjes te laten verlopen en vooral: mensen gelukkig te zien.",
+    about_layali_p2:"Van de eerste voorbereiding tot het laatste moment: wij zorgen ervoor dat jouw event zorgeloos en onvergetelijk wordt.",
+    about_nouhayla_h2:"Nouhayla Photography",
+    about_nouhayla_p1:"Nouhayla Photography is ontstaan vanuit mijn liefde voor fotografie en het vastleggen van bijzondere momenten. Voor mij is fotografie meer dan alleen een foto maken: het gaat om het bewaren van emoties, details en herinneringen die je keer op keer opnieuw wilt beleven.",
+    about_nouhayla_p2:"Met een persoonlijke aanpak en oog voor detail leggen we jullie mooiste momenten vast — puur, tijdloos en met gevoel.",
+    about_tagline:"Jouw moment. Jouw verhaal. Voor altijd vastgelegd.",
+    contact_h1:"Contact", contact_sub:"Klaar om te plannen? Neem contact op met Layali Events, met Nouhayla, of met beiden.",
+    contact_layali_note:"Voor gastvrouwen, planning en coördinatie", contact_photo_note:"Voor fotografie en albums",
+    label_email:"EMAIL", label_phone:"TELEFOON", label_instagram:"INSTAGRAM", label_tiktok:"TIKTOK", label_facebook:"FACEBOOK",
+    whatsapp_btn:"Boek via WhatsApp",
+    footer_note:"Marokkaanse bruiloften, samen vastgelegd."
+  },
+  fr: {
+    nav_home:"Accueil", nav_events:"Layali Events", nav_photo:"Photographie", nav_about:"À propos", nav_contact:"Contact",
+    combo_sub:"Deux artisans, un mariage inoubliable.",
+    brand_tag_layali:"Service de mariage marocain", brand_tag_photo:"Photographe de mariage",
+    home_kicker_events:"pour le mariage", home_kicker_photo:"pour l'immortaliser",
+    home_desc_events:"Nous organisons votre journée du début à la fin, avec attention à chaque détail et respect des traditions.",
+    home_desc_photo:"Une photographie de mariage sincère, sans pose, qui capte l'émotion réelle de votre journée.",
+    home_cta_events:"Découvrir Layali Events", home_cta_photo:"Voir la photographie",
+    home_together_h2:"Pourquoi s'associer",
+    home_together_body:"Un mariage n'a pas besoin de deux plannings séparés, mais de deux professionnels qui se comprennent. Layali Events connaît chaque décor sur le bout des doigts ; Nouhayla sait exactement quand se tenir prête avec son appareil. Réservez séparément, ou le duo.",
+    pill_1:"Traditions marocaines", pill_2:"Photographie sur mesure", pill_3:"De la planification à la dernière photo",
+    events_h1:"Layali Events", events_sub:"Service de mariage marocain — nous prenons soin de chaque détail de votre journée, dans le respect des traditions.",
+    events_about_h2:"À propos", events_about_body:"Layali Events organise des mariages marocains du début à la fin. De la première rencontre à la dernière danse : vous profitez de votre journée, nous gérons les coulisses.",
+    services_h2:"Nos services",
+    s1_t:"Hôtesse & wedding planner", s1_d:"Coordination et accueil pour toute votre journée, de l'arrivée au départ.",
+    s2_t:"Équipe de service", s2_d:"Personnel de service professionnel pendant la fête.",
+    s3_t:"Sécurité photo", s3_d:"Nous veillons sur vos affaires et vos photos, pour que tout reste en sécurité.",
+    s4_t:"Créateur de contenu", s4_d:"Images d'ambiance et contenu de votre journée, prêts à partager.",
+    s5_t:"Nounous", s5_d:"Garde d'enfants expérimentée, diplômée en premiers secours.",
+    s6_t:"Dame de toilettes", s6_d:"Entretien et propreté des toilettes, toute la soirée.",
+    s7_t:"Plonge & aide en cuisine", s7_d:"Soutien en cuisine et pour la vaisselle.",
+    s8_t:"Hennaya", s8_d:"Organisation et mise en scène d'une soirée henné inoubliable.",
+    process_h2:"Comment ça marche",
+    p1_t:"Rencontre", p1_d:"Nous discutons de vos souhaits, de votre style et de votre budget.",
+    p2_t:"Planification", p2_d:"Vous recevez une proposition concrète pour le décor et les prestataires.",
+    p3_t:"Exécution", p3_d:"Nous coordonnons tout, jusqu'au départ du dernier invité.",
+    events_cta_h2:"Prêts à planifier ?", events_cta_btn:"Nous contacter",
+    photo_sub:"Une photographie de mariage qui capte le moment réel — sans pose, avec émotion.",
+    photo_about_h2:"À propos de Nouhayla", photo_about_body:"Nouhayla photographie les mariages tels qu'ils se déroulent : naturels, chaleureux, avec un œil pour les détails que vous chérirez le plus.",
+    portfolio_h2:"Mon travail",
+    reviews_h2:"Ce que disent nos clients", rev_guest:"— Invité(e) à un mariage", rev_guest2:"— Invité(e) à un mariage",
+    packages_h2:"Formules",
+    pk1_t:"Fiançailles", pk1_d:"Une séance photo pour introduire votre histoire.",
+    pk2_t:"Jour du mariage", pk2_d:"Couverture complète, des préparatifs à l'ouverture de bal.",
+    pk3_t:"Mariage + Henné", pk3_d:"Les deux soirées immortalisées, avec un album commun.",
+    photo_cta_h2:"Immortalisons votre journée", photo_cta_btn:"Nous contacter",
+    about_h1:"À propos de nous", about_sub:"Deux passions, une seule mission : faire de votre journée un moment inoubliable.",
+    about_layali_h2:"Layali Events",
+    about_layali_p1:"Layali Events est né de ma passion pour la coordination d'événements et la création de moments inoubliables. En tant que fondatrice, je tiens à ce que chaque détail soit parfait, afin que nos clients puissent profiter sereinement de leur journée si spéciale. Avec mon équipe, je m'investis à chaque fois pour que tout se déroule impeccablement — et surtout, pour voir les gens heureux.",
+    about_layali_p2:"Des premiers préparatifs jusqu'au dernier instant : nous veillons à ce que votre événement soit serein et inoubliable.",
+    about_nouhayla_h2:"Nouhayla Photography",
+    about_nouhayla_p1:"Nouhayla Photography est né de mon amour pour la photographie et pour la capture d'instants précieux. Pour moi, la photographie va bien au-delà de la simple image : il s'agit de préserver des émotions, des détails et des souvenirs que l'on aime revivre encore et encore.",
+    about_nouhayla_p2:"Avec une approche personnelle et un œil attentif aux détails, nous immortalisons vos plus beaux moments — purs, intemporels et pleins d'émotion.",
+    about_tagline:"Votre instant. Votre histoire. Immortalisés pour toujours.",
+    contact_h1:"Contact", contact_sub:"Prêts à planifier ? Contactez Layali Events, Nouhayla, ou les deux.",
+    contact_layali_note:"Pour l'accueil, la planification et la coordination", contact_photo_note:"Pour la photographie et les albums",
+    label_email:"EMAIL", label_phone:"TÉLÉPHONE", label_instagram:"INSTAGRAM", label_tiktok:"TIKTOK", label_facebook:"FACEBOOK",
+    whatsapp_btn:"Réserver via WhatsApp",
+    footer_note:"Des mariages marocains, immortalisés ensemble."
+  },
+  en: {
+    nav_home:"Home", nav_events:"Layali Events", nav_photo:"Photography", nav_about:"About", nav_contact:"Contact",
+    combo_sub:"Two professionals, one unforgettable wedding.",
+    brand_tag_layali:"Moroccan wedding service", brand_tag_photo:"Wedding photographer",
+    home_kicker_events:"for the wedding", home_kicker_photo:"to remember it by",
+    home_desc_events:"We plan your day from start to finish, with an eye for every detail and respect for tradition.",
+    home_desc_photo:"Unposed, warm wedding photography that holds on to the real moments of your day.",
+    home_cta_events:"Discover Layali Events", home_cta_photo:"View the photography",
+    home_together_h2:"Why work together",
+    home_together_body:"A wedding day doesn't need two separate plans — it needs two professionals who understand each other. Layali Events knows every venue inside out; Nouhayla knows exactly when to be ready with her camera. Book separately, or book the duo.",
+    pill_1:"Moroccan traditions", pill_2:"Photography, tailored", pill_3:"From planning to the last photo",
+    events_h1:"Layali Events", events_sub:"Moroccan wedding service — we take care of every detail of your day, with respect for tradition and an eye for the smallest things.",
+    events_about_h2:"About us", events_about_body:"Layali Events plans Moroccan weddings from start to finish. From the first meeting to the last dance, you get to enjoy your day while we handle the puzzle behind the scenes.",
+    services_h2:"What we do",
+    s1_t:"Hostess & wedding planner", s1_d:"Coordination and hosting for your entire day, from arrival to farewell.",
+    s2_t:"Serving team", s2_d:"Professional serving staff throughout the celebration.",
+    s3_t:"Photo security", s3_d:"We keep an eye on your belongings and photos, so everything stays safe.",
+    s4_t:"Content creator", s4_d:"Behind-the-scenes footage of your day, ready to share.",
+    s5_t:"Nannies", s5_d:"Experienced childcare, certified in first aid.",
+    s6_t:"Restroom attendant", s6_d:"Keeping the restrooms clean and cared for, all evening long.",
+    s7_t:"Dishwashing & kitchen help", s7_d:"Support in the kitchen and with the dishes.",
+    s8_t:"Hennaya", s8_d:"Organisation and styling of an unforgettable henna night.",
+    process_h2:"How it works",
+    p1_t:"First meeting", p1_d:"We talk through your wishes, style and budget.",
+    p2_t:"Planning", p2_d:"You receive a concrete proposal for decor and vendors.",
+    p3_t:"Execution", p3_d:"We coordinate everything, down to the last guest leaving.",
+    events_cta_h2:"Ready to start planning?", events_cta_btn:"Get in touch",
+    photo_sub:"Wedding photography that captures the real moment — no posing, just emotion.",
+    photo_about_h2:"About Nouhayla", photo_about_body:"Nouhayla photographs weddings as they unfold: unposed, warm, with an eye for the details you'll treasure most.",
+    portfolio_h2:"My work",
+    reviews_h2:"What clients say", rev_guest:"— Wedding guest", rev_guest2:"— Wedding guest",
+    packages_h2:"Packages",
+    pk1_t:"Engagement", pk1_d:"A shoot to open the story of your wedding.",
+    pk2_t:"Wedding day", pk2_d:"Full coverage from getting ready to the first dance.",
+    pk3_t:"Wedding + Henna", pk3_d:"Both evenings captured, with one shared album.",
+    photo_cta_h2:"Let's capture your day", photo_cta_btn:"Get in touch",
+    about_h1:"About us", about_sub:"Two passions, one mission: making your day unforgettable.",
+    about_layali_h2:"Layali Events",
+    about_layali_p1:"Layali Events was born from my passion for event coordination and creating unforgettable moments. As the owner, I believe every detail matters, so our clients can relax and truly enjoy their special day. Together with my team, I work hard every time to make sure everything runs perfectly — and above all, to see people happy.",
+    about_layali_p2:"From the very first preparations to the final moment: we make sure your event is carefree and unforgettable.",
+    about_nouhayla_h2:"Nouhayla Photography",
+    about_nouhayla_p1:"Nouhayla Photography was born from my love of photography and capturing special moments. To me, photography is more than just taking a picture: it's about preserving emotions, details and memories you want to relive again and again.",
+    about_nouhayla_p2:"With a personal approach and an eye for detail, we capture your most beautiful moments — pure, timeless, and full of feeling.",
+    about_tagline:"Your moment. Your story. Captured forever.",
+    contact_h1:"Contact", contact_sub:"Ready to start planning? Reach out to Layali Events, Nouhayla, or both.",
+    contact_layali_note:"For hostesses, planning and coordination", contact_photo_note:"For photography and albums",
+    label_email:"EMAIL", label_phone:"PHONE", label_instagram:"INSTAGRAM", label_tiktok:"TIKTOK", label_facebook:"FACEBOOK",
+    whatsapp_btn:"Book via WhatsApp",
+    footer_note:"Moroccan weddings, captured together."
+  }
+};
+
+let currentLang = 'nl';
+let currentPage = 'home';
+const siteBase = "Layali Events × Nouhayla Photography";
+
+function updateTitle(page){
+  const t = translations[currentLang];
+  const labels = {events:t.nav_events, photo:t.nav_photo, about:t.nav_about, contact:t.nav_contact};
+  document.title = page === 'home' ? siteBase : `${labels[page]} — ${siteBase}`;
+}
+
+function applyLang(lang){
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    if(translations[lang][key]) el.textContent = translations[lang][key];
+  });
+  document.querySelectorAll('.lang-switch button').forEach(b=>{
+    b.classList.toggle('active', b.dataset.lang === lang);
+  });
+  updateTitle(currentPage);
+}
+document.querySelectorAll('.lang-switch button').forEach(b=>{
+  b.addEventListener('click', ()=> applyLang(b.dataset.lang));
+});
+
+/* ---------- scroll reveal ---------- */
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const revealObserver = (!prefersReducedMotion && 'IntersectionObserver' in window)
+  ? new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.15, rootMargin:'0px 0px -40px 0px'})
+  : null;
+
+function observeReveals(){
+  document.querySelectorAll('.reveal:not(.in-view)').forEach(el=>{
+    if(revealObserver) revealObserver.observe(el);
+    else el.classList.add('in-view');
+  });
+}
+observeReveals();
+
+/* ---------- page routing (hash-based, supports deep links + back button) ---------- */
+const validPages = ['home','events','photo','about','contact'];
+
+function renderPage(page){
+  if(!validPages.includes(page)) page = 'home';
+  currentPage = page;
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+page).classList.add('active');
+  document.querySelectorAll('.page-links button').forEach(b=>{
+    b.classList.toggle('active', b.dataset.page === page);
+  });
+  document.querySelector('header.site-nav').classList.toggle('dark-theme', page === 'photo');
+  window.scrollTo({top:0, behavior:'instant'});
+  document.getElementById('pageLinks').classList.remove('open');
+  updateTitle(page);
+  observeReveals();
+}
+
+function goTo(page){
+  if(location.hash === '#'+page){
+    renderPage(page);
+  } else {
+    location.hash = page;
+  }
+}
+window.addEventListener('hashchange', ()=> renderPage(location.hash.replace('#','')));
+
+document.querySelectorAll('.page-links button[data-page]').forEach(b=>{
+  b.addEventListener('click', ()=> goTo(b.dataset.page));
+});
+document.querySelectorAll('[data-goto]').forEach(b=>{
+  b.addEventListener('click', ()=> goTo(b.dataset.goto));
+});
+document.getElementById('burgerBtn').addEventListener('click', ()=>{
+  document.getElementById('pageLinks').classList.toggle('open');
+});
+
+renderPage(location.hash.replace('#','') || 'home');
+
+/* ---------- lightbox ---------- */
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxClose = document.getElementById('lightboxClose');
+let lastFocusedEl = null;
+
+function openLightbox(src, alt){
+  lastFocusedEl = document.activeElement;
+  lightboxImg.src = src;
+  lightboxImg.alt = alt || '';
+  lightbox.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  lightboxClose.focus();
+}
+function closeLightbox(){
+  lightbox.classList.remove('open');
+  document.body.style.overflow = '';
+  lightboxImg.src = '';
+  if(lastFocusedEl) lastFocusedEl.focus();
+}
+document.querySelectorAll('.plate[data-full]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const img = btn.querySelector('img');
+    openLightbox(btn.dataset.full, img ? img.alt : '');
+  });
+});
+lightboxClose.addEventListener('click', closeLightbox);
+lightbox.addEventListener('click', (e)=>{ if(e.target === lightbox) closeLightbox(); });
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
+});
+</script>
+</body>
+</html>
