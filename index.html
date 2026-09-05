@@ -996,6 +996,23 @@ lightbox.addEventListener('click', (e)=>{ if(e.target === lightbox) closeLightbo
 document.addEventListener('keydown', (e)=>{
   if(e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
 });
+
+/* ---------- auto-retry on failed image loads (flaky mobile networks) ---------- */
+function setupImageRetry(img, maxAttempts){
+  let attempts = 0;
+  img.addEventListener('error', function onError(){
+    attempts++;
+    if(attempts > maxAttempts) return;
+    const base = img.dataset.retrySrc || img.src;
+    img.dataset.retrySrc = base;
+    setTimeout(()=>{
+      img.src = base.split('?')[0] + '?retry=' + attempts + '-' + Date.now();
+    }, 800 * attempts);
+  });
+}
+document.querySelectorAll('.plate img, .lightbox img').forEach(img=>{
+  setupImageRetry(img, 3);
+});
 </script>
 </body>
 </html>
